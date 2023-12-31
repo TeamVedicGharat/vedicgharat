@@ -1,0 +1,23 @@
+/* styles.css (or your preferred style file) */
+.hero-heading {
+    color: white;
+    text-shadow:
+        -1px -1px 0 rebeccapurple,
+        1px -1px 0 red,
+        -1px 1px 0 orange,
+        1px 1px 0 blue;
+}
+
+@keyframes moveRightToLeft {
+    0% {
+        transform: translateX(80%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.news-headline {
+    animation: moveRightToLeft linear infinite;
+}

@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 const ProductFeaturesSection = () => {
     return (
         <section className="bg-gray-100 text-gray-800 py-16">
-            <div className="container mx-auto text-center">
+            <div className="container max-w-5xl mx-auto text-center px-4">
                 <h2 className="text-3xl lg:text-4xl font-bold mb-8">
                     Discover the Goodness of Vedic Gharat Atta
                 </h2>

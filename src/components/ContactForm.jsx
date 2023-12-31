@@ -7,16 +7,16 @@ const ContactForm = () => {
                 </h2>
 
                 {/* Contact Form */}
-                <form className="max-w-md mx-auto">
+                <form className="max-w-md  mx-auto">
                     <div className="mb-4">
-                        <label htmlFor="name" className="block text-sm font-medium mb-2">
+                        <label htmlFor="name" className="block text-sm font-medium mb-1">
                             Your Name
                         </label>
                         <input
                             type="text"
                             id="name"
                             name="name"
-                            className="w-full p-3 rounded-md border border-gray-600 focus:outline-none focus:border-blue-500"
+                            className="w-full text-black py-2 px-3 rounded-md border border-gray-600 focus:outline-none focus:border-blue-500"
                             placeholder="John Doe"
                         />
                     </div>
@@ -29,15 +29,15 @@ const ContactForm = () => {
                             type="email"
                             id="email"
                             name="email"
-                            className="w-full p-3 rounded-md border border-gray-600 focus:outline-none focus:border-blue-500"
+                            className="w-full text-black px-3 py-2 rounded-md border border-gray-600 focus:outline-none focus:border-blue-500"
                             placeholder="john@example.com"
                         />
                     </div>
 
-                    <div className="mb-4">
+                    <div className="mb-3">
                         <label
                             htmlFor="message"
-                            className="block text-sm font-medium mb-2"
+                            className="block text-sm font-medium mb-1"
                         >
                             Your Message
                         </label>
@@ -45,14 +45,14 @@ const ContactForm = () => {
                             id="message"
                             name="message"
                             rows="4"
-                            className="w-full p-3 rounded-md border border-gray-600 focus:outline-none focus:border-blue-500"
+                            className="w-full text-black px-3 py-2 rounded-md border border-gray-600 focus:outline-none focus:border-blue-500"
                             placeholder="Type your message here..."
                         ></textarea>
                     </div>
 
                     <button
                         type="submit"
-                        className="bg-blue-500 text-white py-2 px-4 rounded-full text-lg lg:text-xl transition duration-300 hover:bg-blue-700"
+                        className="bg-blue-500 text-white py-2 px-3 rounded-md text-lg lg:text-xl transition duration-300 hover:bg-blue-700"
                     >
                         Send Message
                     </button>
